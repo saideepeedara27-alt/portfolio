@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+/* Cyber-Minimal Theme Variables */
+:root {
+  --background: #fafafa;
+  --surface: #ffffff;
+  --foreground: #18181b;
+  --muted: #71717a;
+  --accent-primary: #0891b2;
+  --accent-secondary: #7c3aed;
+  --border: #e4e4e7;
+}
+
+.dark {
+  --background: #09090b;
+  --surface: #18181b;
+  --foreground: #fafafa;
+  --muted: #a1a1aa;
+  --accent-primary: #22d3ee;
+  --accent-secondary: #8b5cf6;
+  --border: #27272a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-accent-primary: var(--accent-primary);
+  --color-accent-secondary: var(--accent-secondary);
+  --color-border: var(--border);
+  --font-heading: var(--font-outfit);
+  --font-body: var(--font-geist-sans);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  overflow-x: hidden;
+  /* Hide default cursor */
+}
+
+/* Custom Modern Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--surface);
+  border-left: 1px solid var(--border);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--accent-primary), var(--accent-secondary));
+  border-radius: 10px;
+  border: 2px solid var(--surface);
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, var(--accent-secondary), var(--accent-primary));
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 10px var(--accent-primary);
+}
+
+/* Firefox Scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent-primary) var(--surface);
+}
