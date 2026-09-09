@@ -9,50 +9,50 @@ import Link from "next/link";
 const services = [
     {
         icon: Server,
-        title: "Scalable Backend & Distributed Systems",
-        description: "Designing high-concurrency, asynchronous backends with Java 17 and Spring Boot. Leveraging Redis Streams for event processing and PostgreSQL for relational integrity.",
+        title: "Backend & REST API Engineering",
+        description: "Designing high-performance, asynchronous backends and REST microservices with Node.js, Express.js, and Python. Ensuring clean modular architecture and robust API testing with Postman.",
         features: [
-            "Event-driven architecture with Redis Streams",
-            "Atomic inventory updates & caching layers",
-            "RESTful API design with clean architecture",
-            "Database migrations with Flyway",
-            "PostgreSQL performance tuning"
+            "Modular RESTful API design with Express & Node.js",
+            "Relational data modeling & optimization in PostgreSQL",
+            "Document schema architecture in MongoDB",
+            "Comprehensive API validation & testing via Postman",
+            "Robust authentication & authorization (JWT, OAuth 2.0)"
         ]
     },
     {
         icon: Code,
         title: "Full-Stack Web Development",
-        description: "Complete MERN and React-based applications from design to cloud deployment. Role-based interactive dashboards with robust authentication.",
+        description: "Modern, responsive full-stack applications with React, Next.js, Node.js, and Tailwind CSS. Clean component hierarchies and intuitive user experiences.",
         features: [
-            "React.js single-page applications",
-            "Node.js & Express REST microservices",
-            "Multi-role user authentication (JWT & OAuth 2.0)",
-            "MongoDB Atlas integration & schema modeling",
-            "Modern responsive layouts & interactive UI"
+            "React.js & Next.js modern web applications",
+            "Responsive & mobile-first UI with HTML5, CSS3 & Tailwind",
+            "Interactive state management & asynchronous workflows",
+            "End-to-end integration between frontend and REST APIs",
+            "Production-ready deployment & cross-browser compatibility"
         ]
     },
     {
         icon: Cpu,
-        title: "Machine Learning & Explainable AI (XAI)",
-        description: "Predictive modeling and transparent ML systems using Scikit-learn and XGBoost. Generating actionable feature explanations with SHAP and LIME.",
+        title: "Data Analytics & Business Intelligence",
+        description: "Interactive data visualization, reporting dashboards, and actionable business intelligence using Power BI, Tableau, SQL, and Python.",
         features: [
-            "Hybrid ensemble architectures (99%+ accuracy)",
-            "Transparent decision explanations with SHAP & LIME",
-            "Time-series forecasting (ARIMA, Holt-Winters)",
-            "Data preprocessing, feature engineering & cross-validation",
-            "Interactive analytics dashboards with Chart.js"
+            "Executive dashboards & KPI tracking with Power BI and Tableau",
+            "Advanced SQL queries, aggregations, and data transformation",
+            "Exploratory data analysis & statistical modeling with Python",
+            "Predictive modeling & machine learning pipelines",
+            "Data storytelling, automated reporting & insight generation"
         ]
     },
     {
         icon: Cloud,
         title: "Cloud Deployment & DevOps Pipelines",
-        description: "Automating deployment workflows and containerizing microservices for production stability on AWS.",
+        description: "Automating deployment workflows and containerizing microservices for rock-solid stability and reliability on AWS.",
         features: [
             "Containerization with Docker & Docker Compose",
-            "Cloud hosting & management on AWS EC2",
+            "Cloud hosting & virtual server management on AWS EC2",
             "Automated CI/CD workflows via GitHub Actions",
-            "Jenkins continuous integration setup",
-            "Production health monitoring & logging"
+            "Continuous integration pipelines with Jenkins",
+            "Version control & collaborative Git/GitHub workflows"
         ]
     }
 ];
@@ -84,7 +84,7 @@ export default function ServicesPage() {
                                     "@type": "Offer",
                                     "itemOffered": {
                                         "@type": "Service",
-                                        "name": "Scalable Backend & Distributed Systems"
+                                        "name": "Backend & REST API Engineering"
                                     }
                                 },
                                 {
@@ -98,7 +98,7 @@ export default function ServicesPage() {
                                     "@type": "Offer",
                                     "itemOffered": {
                                         "@type": "Service",
-                                        "name": "Machine Learning & Explainable AI"
+                                        "name": "Data Analytics & Business Intelligence"
                                     }
                                 },
                                 {
@@ -173,7 +173,7 @@ export default function ServicesPage() {
                                 Have an Open Role or Project?
                             </h2>
                             <p className="mx-auto mb-8 max-w-2xl text-lg text-muted">
-                                Let's discuss how my expertise in Java, Spring Boot, Python, and modern web architectures can bring value to your engineering team.
+                                Let's discuss how my expertise in Node.js, Express, Python, PostgreSQL, cloud deployments, and data analytics can bring value to your engineering team.
                             </p>
                             <Link
                                 href="/contact"

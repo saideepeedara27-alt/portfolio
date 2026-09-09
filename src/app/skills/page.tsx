@@ -4,62 +4,48 @@ import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { SkillCloud } from "@/components/skill-cloud";
 import { motion } from "framer-motion";
-import { Code2, Layers, Database, Cloud, Terminal, Cpu } from "lucide-react";
+import { Code2, Layers, Database, Cloud, BarChart3, Terminal } from "lucide-react";
 
 const skillCategories = [
     {
-        category: "Programming Languages",
+        category: "Programming Languages & Web",
         icon: Code2,
         skills: [
-            { name: "Java (Java 17)", level: "Advanced" },
             { name: "Python", level: "Advanced" },
             { name: "JavaScript", level: "Advanced" },
             { name: "SQL", level: "Advanced" },
-            { name: "HTML & CSS", level: "Proficient" },
+            { name: "HTML5 & CSS3", level: "Advanced" },
         ]
     },
     {
-        category: "Frameworks & Web",
+        category: "Backend Development",
         icon: Layers,
         skills: [
-            { name: "Spring Boot", level: "Advanced" },
-            { name: "React.js", level: "Advanced" },
             { name: "Node.js", level: "Advanced" },
             { name: "Express.js", level: "Advanced" },
-            { name: "RESTful APIs", level: "Expert" },
+            { name: "RESTful API Development", level: "Advanced" },
         ]
     },
     {
-        category: "Machine Learning & AI",
-        icon: Cpu,
-        skills: [
-            { name: "Scikit-learn", level: "Advanced" },
-            { name: "XGBoost", level: "Advanced" },
-            { name: "SHAP & LIME (Explainable AI)", level: "Advanced" },
-            { name: "Time Series (ARIMA, Holt-Winters)", level: "Intermediate" },
-            { name: "Chart.js Visualizations", level: "Advanced" },
-        ]
-    },
-    {
-        category: "Databases & Streaming",
-        icon: Database,
+        category: "Databases & Analytics",
+        icon: BarChart3,
         skills: [
             { name: "PostgreSQL", level: "Advanced" },
-            { name: "MongoDB / Atlas", level: "Advanced" },
-            { name: "Redis Caching", level: "Advanced" },
-            { name: "Redis Streams", level: "Advanced" },
-            { name: "Flyway Database Migrations", level: "Intermediate" },
+            { name: "MongoDB", level: "Advanced" },
+            { name: "Power BI", level: "Advanced" },
+            { name: "Tableau", level: "Advanced" },
         ]
     },
     {
         category: "Cloud, DevOps & Tools",
         icon: Cloud,
         skills: [
-            { name: "Docker & Docker Compose", level: "Advanced" },
+            { name: "Docker", level: "Advanced" },
             { name: "AWS EC2", level: "Intermediate" },
-            { name: "Jenkins CI/CD", level: "Intermediate" },
+            { name: "Jenkins", level: "Intermediate" },
             { name: "GitHub Actions", level: "Advanced" },
-            { name: "Linux & Git / Postman", level: "Advanced" },
+            { name: "Git & GitHub", level: "Advanced" },
+            { name: "Postman", level: "Advanced" },
         ]
     }
 ];
@@ -76,13 +62,14 @@ export default function SkillsPage() {
                         "name": "Technical Skills of Eedara Sai Deep",
                         "description": "Comprehensive list of technical skills and frameworks mastered by Eedara Sai Deep",
                         "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Java & Spring Boot" },
-                            { "@type": "ListItem", "position": 2, "name": "Python & Machine Learning" },
-                            { "@type": "ListItem", "position": 3, "name": "React.js & Node.js" },
-                            { "@type": "ListItem", "position": 4, "name": "PostgreSQL & MongoDB" },
-                            { "@type": "ListItem", "position": 5, "name": "Redis & Redis Streams" },
+                            { "@type": "ListItem", "position": 1, "name": "Python & JavaScript" },
+                            { "@type": "ListItem", "position": 2, "name": "Node.js & Express.js" },
+                            { "@type": "ListItem", "position": 3, "name": "SQL & PostgreSQL" },
+                            { "@type": "ListItem", "position": 4, "name": "MongoDB" },
+                            { "@type": "ListItem", "position": 5, "name": "Power BI & Tableau" },
                             { "@type": "ListItem", "position": 6, "name": "Docker & AWS EC2" },
-                            { "@type": "ListItem", "position": 7, "name": "CI/CD (Jenkins, GitHub Actions)" },
+                            { "@type": "ListItem", "position": 7, "name": "Jenkins & GitHub Actions" },
+                            { "@type": "ListItem", "position": 8, "name": "Git, GitHub & Postman" },
                         ]
                     }),
                 }}
@@ -101,7 +88,7 @@ export default function SkillsPage() {
                                 Technical Skills & Stack
                             </h1>
                             <p className="mx-auto max-w-2xl text-lg text-muted">
-                                Hands-on expertise across distributed backends, full-stack web applications, machine learning architectures, and cloud DevOps.
+                                Practical expertise in backend web development, database design, cloud infrastructure, CI/CD automation, and business intelligence analytics.
                             </p>
                         </motion.div>
 
@@ -117,7 +104,7 @@ export default function SkillsPage() {
                         </motion.div>
 
                         {/* Categorized Skills Grid */}
-                        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                        <div className="grid gap-6 md:grid-cols-2">
                             {skillCategories.map((category, categoryIndex) => {
                                 const Icon = category.icon;
                                 return (
@@ -140,7 +127,7 @@ export default function SkillsPage() {
                                             {category.skills.map((skill) => (
                                                 <div key={skill.name} className="flex items-center justify-between border-b border-border/40 pb-2 last:border-0 last:pb-0">
                                                     <span className="font-medium text-sm text-foreground/90">{skill.name}</span>
-                                                    <span className="text-xs px-2 py-0.5 rounded-full bg-accent-primary/10 text-accent-primary font-medium">{skill.level}</span>
+                                                    <span className="text-xs px-2.5 py-0.5 rounded-full bg-accent-primary/10 text-accent-primary font-medium">{skill.level}</span>
                                                 </div>
                                             ))}
                                         </div>

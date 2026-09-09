@@ -54,7 +54,7 @@ export function Hero() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.4 }}
                     >
-                        Specializing in scalable distributed backend systems (Java, Spring Boot, Redis Streams), modern full-stack web platforms (React, Node.js, Express), and interpretable Machine Learning (Scikit-learn, XGBoost, SHAP, LIME).
+                        Specializing in backend web development (Node.js, Express.js, Python), database architectures (PostgreSQL, MongoDB), cloud containerization (Docker, AWS EC2, Jenkins), and data analytics (Power BI, Tableau).
                     </motion.p>
 
                     <motion.div

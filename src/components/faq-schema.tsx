@@ -10,7 +10,7 @@ export function FAQSchema() {
                 "name": "Who is Eedara Sai Deep?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Eedara Sai Deep is a Full-Stack Developer and Backend Engineer studying Computer Science & Engineering (Data Science) at NIIT University, Neemrana. He has extensive experience in Java 17, Spring Boot, Python, React, PostgreSQL, Redis Streams, Docker, and interpretable Machine Learning."
+                    "text": "Eedara Sai Deep is a Full-Stack Developer and Backend Engineer studying Computer Science & Engineering (Data Science) at NIIT University, Neemrana. He has extensive experience in Python, Node.js, Express.js, React, PostgreSQL, MongoDB, Docker, AWS EC2, Jenkins, GitHub Actions, Power BI, and Tableau."
                 }
             },
             {
@@ -18,7 +18,7 @@ export function FAQSchema() {
                 "name": "What technologies does Eedara Sai Deep specialize in?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Eedara Sai Deep specializes in Java, Spring Boot, Python, React.js, Node.js, Express.js, PostgreSQL, MongoDB, Redis, Redis Streams, Docker, AWS EC2, Jenkins, GitHub Actions, Scikit-learn, XGBoost, SHAP, and LIME."
+                    "text": "Eedara Sai Deep specializes in Python, JavaScript, SQL, HTML & CSS, Node.js, Express.js, React.js, PostgreSQL, MongoDB, Docker, AWS EC2, Jenkins, GitHub Actions, Postman, Power BI, and Tableau."
                 }
             },
             {

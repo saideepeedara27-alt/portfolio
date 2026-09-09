@@ -4,11 +4,11 @@ import { useEffect, useMemo, useState, useRef } from "react";
 
 // Skills list for Eedara Sai Deep
 const skills = [
-    "Java", "Spring Boot", "Python", "React.js", "Node.js",
-    "Express.js", "PostgreSQL", "MongoDB", "Redis", "Redis Streams",
-    "Docker", "AWS EC2", "Jenkins", "GitHub Actions", "Scikit-learn",
-    "XGBoost", "SHAP", "LIME", "Chart.js", "REST APIs",
-    "Flyway", "SQL", "JavaScript", "Linux", "Git"
+    "Python", "JavaScript", "SQL", "HTML5", "CSS3",
+    "Node.js", "Express.js", "PostgreSQL", "MongoDB",
+    "Docker", "AWS EC2", "Jenkins", "GitHub Actions",
+    "Git", "GitHub", "Postman", "Power BI", "Tableau",
+    "Data Analytics", "REST APIs"
 ];
 
 export function SkillCloud() {

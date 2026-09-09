@@ -56,13 +56,13 @@ export function About() {
                                 <span className="text-accent-primary font-bold">NIIT University, Neemrana</span> (Jul 2023 – Aug 2027 Expected).
                             </p>
                             <p className="text-lg leading-relaxed text-muted mt-4">
-                                He specializes in engineering <span className="text-foreground">scalable, event-driven backend systems</span> with{" "}
-                                <span className="text-accent-primary font-bold">Java 17, Spring Boot, Redis Streams, and PostgreSQL</span>, containerized with{" "}
-                                <span className="text-foreground font-semibold">Docker</span> and automated via <span className="text-foreground">CI/CD pipelines</span>.
+                                He specializes in engineering <span className="text-foreground">robust backend APIs</span> with{" "}
+                                <span className="text-accent-primary font-bold">Node.js, Express.js, and Python</span>, paired with{" "}
+                                <span className="text-foreground font-semibold">PostgreSQL and MongoDB</span>, containerized with{" "}
+                                <span className="text-accent-primary font-bold">Docker</span> and deployed on <span className="text-foreground font-semibold">AWS EC2</span>.
                             </p>
                             <p className="text-lg leading-relaxed text-muted mt-4">
-                                Deep also designs end-to-end <span className="text-foreground">MERN stack applications</span> and conducts research in{" "}
-                                <span className="text-accent-primary font-bold">Interpretable & Explainable AI</span>, creating hybrid ensemble models (achieving 99.55% accuracy) with transparent SHAP & LIME explanations.
+                                Deep is also proficient in CI/CD automation using <span className="text-accent-primary font-bold">Jenkins and GitHub Actions</span>, API testing with <span className="text-foreground font-semibold">Postman</span>, and enterprise business intelligence reporting with <span className="text-accent-primary font-bold">Power BI & Tableau</span>.
                             </p>
                         </div>
 
@@ -81,8 +81,8 @@ export function About() {
                                     <Server className="h-5 w-5" />
                                     <span className="font-semibold text-sm">Core Focus</span>
                                 </div>
-                                <p className="text-sm font-medium text-foreground">Distributed Systems</p>
-                                <p className="text-xs text-muted">Java • Spring • Redis • ML</p>
+                                <p className="text-sm font-medium text-foreground">Backend & Cloud</p>
+                                <p className="text-xs text-muted">Node.js • Python • SQL • Docker</p>
                             </div>
                         </div>
                     </motion.div>
