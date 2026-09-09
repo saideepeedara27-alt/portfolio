@@ -32,9 +32,6 @@ export function SkillCloud() {
     return (
         <div className="relative flex h-[450px] w-full items-center justify-center overflow-hidden rounded-2xl border border-border bg-surface/30 backdrop-blur-sm">
             <TagCloud tags={skills} radius={180} />
-            <div className="absolute bottom-4 right-4 text-xs text-muted/50">
-                Interactive 3D Skill Sphere
-            </div>
         </div>
     );
 }
