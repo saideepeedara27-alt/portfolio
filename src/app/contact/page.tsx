@@ -5,7 +5,7 @@ import { Contact as ContactSection } from "@/components/sections/contact";
 
 export const metadata: Metadata = {
     title: "Contact Eedara Sai Deep | Software Engineer & Backend Developer",
-    description: "Get in touch with Eedara Sai Deep for software engineering opportunities, Java / Spring Boot backend projects, React web applications, or data science collaborations.",
+    description: "Get in touch with Eedara Sai Deep for software engineering opportunities, Node.js / Python backend projects, modern web applications, or data analytics collaborations.",
     keywords: [
         "Contact Eedara Sai Deep",
         "Hire Eedara Sai Deep",
