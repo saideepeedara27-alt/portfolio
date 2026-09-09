@@ -24,9 +24,9 @@ const educationItems = [
         period: "2021",
         title: "Class X (Secondary School)",
         organization: "Sri Chaitanya School",
-        score: "CGPA: 10.0 / 10.0 (Perfect Score)",
+        score: "CGPA: 10/10",
         description:
-            "Completed secondary schooling with a perfect 10.0 CGPA, establishing a solid mathematical and analytical foundation.",
+            "Completed secondary schooling at Sri Chaitanya School, establishing a solid mathematical and analytical foundation.",
     },
 ];
 

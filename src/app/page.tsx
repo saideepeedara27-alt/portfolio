@@ -5,7 +5,7 @@ import { Hero } from "@/components/sections/hero";
 import { Projects as ProjectsSection } from "@/components/sections/projects";
 import { FAQSchema } from "@/components/faq-schema";
 import Link from "next/link";
-import { Code, Zap, Users, BookOpen, Award, MessageSquare, ArrowRight } from "lucide-react";
+import { Code, Zap, Users, BookOpen, Award, Mail, ArrowRight } from "lucide-react";
 
 const highlights = [
   {
@@ -22,7 +22,7 @@ const highlights = [
   },
   {
     icon: Users,
-    title: "Experience & Education",
+    title: "Education & Experience",
     description: "Academic journey at NIIT University and professional engineering simulations at Deloitte Australia and JPMorgan Chase.",
     href: "/experience",
   },
@@ -39,10 +39,10 @@ const highlights = [
     href: "/services",
   },
   {
-    icon: MessageSquare,
-    title: "Insights & Tech Notes",
-    description: "Technical writeups on distributed systems, event streaming with Redis, and explainable AI architectures.",
-    href: "/blog",
+    icon: Mail,
+    title: "Get In Touch",
+    description: "Discuss software engineering roles, full-stack opportunities, or backend collaborations directly with Sai Deep.",
+    href: "/contact",
   },
 ];
 
