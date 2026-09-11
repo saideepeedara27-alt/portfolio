@@ -5,7 +5,7 @@ import { Hero } from "@/components/sections/hero";
 import { Projects as ProjectsSection } from "@/components/sections/projects";
 import { FAQSchema } from "@/components/faq-schema";
 import Link from "next/link";
-import { Code, Zap, Users, BookOpen, Award, Mail, ArrowRight } from "lucide-react";
+import { Code, Zap, Users, BookOpen, Mail, ArrowRight } from "lucide-react";
 
 const highlights = [
   {
@@ -31,12 +31,6 @@ const highlights = [
     title: "Technical Skills",
     description: "Proficiency in Java 17, Spring Boot, Python, React.js, Redis Streams, PostgreSQL, Docker Compose, and Scikit-learn.",
     href: "/skills",
-  },
-  {
-    icon: Award,
-    title: "Services & Capabilities",
-    description: "From event-driven backend microservices to modern full-stack web apps and interpretable machine learning pipelines.",
-    href: "/services",
   },
   {
     icon: Mail,

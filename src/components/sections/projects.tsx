@@ -24,8 +24,7 @@ export const projects: ProjectItem[] = [
             "Interpretable hybrid ensemble crop recommendation system trained on 2,200 soil samples, 7 features, and 22 crop classes. Proposed HYB-RF-XGB-ET achieved 99.55% Accuracy, 99.57% Precision, and 99.55% F1-score. Integrated SHAP and LIME to generate transparent feature explanations and actionable recommendations.",
         tags: ["Python", "Scikit-learn", "XGBoost", "SHAP", "LIME", "Ensemble ML", "Data Science"],
         image: "/projects/explainable-ai.png",
-        github: "https://github.com/saideepeedara27-alt",
-        demo: "https://github.com/saideepeedara27-alt",
+        github: "https://github.com/saideepeedara27-alt/Explainable-AI-for-Soil-Property-Prediction",
     },
     {
         title: "Kisan Connect – Farm-to-Customer Marketplace",
@@ -34,8 +33,18 @@ export const projects: ProjectItem[] = [
             "Production-ready MERN marketplace supporting 4 user roles with dedicated interactive dashboards. Implemented JWT, Google OAuth, MongoDB Atlas, and Docker for secure deployment. Containerized and deployed on AWS EC2 with automated CI/CD via GitHub Actions.",
         tags: ["React.js", "Node.js", "Express.js", "MongoDB Atlas", "Docker", "AWS EC2", "GitHub Actions"],
         image: "/projects/kisan-connect.png",
-        github: "https://github.com/saideepeedara27-alt",
-        demo: "https://github.com/saideepeedara27-alt",
+        github: "https://github.com/saideepeedara27-alt/Kisan-Connect-MERN-Application",
+        demo: "https://16.16.176.100.sslip.io/",
+    },
+    {
+        title: "Zomato Data Engineering Pipeline with AI",
+        badge: "Data Engineering • Snowflake & AI",
+        description:
+            "End-to-end cloud data pipeline processing food delivery datasets. Ingests raw data into Amazon S3, orchestrates Snowflake batch loads with Apache Airflow, models dimensional data marts via dbt, and integrates Google Gemini for automated review intelligence and interactive Text-to-SQL querying via Streamlit.",
+        tags: ["Snowflake", "dbt", "Apache Airflow", "Google Gemini", "Amazon S3", "Streamlit", "Python", "Docker"],
+        image: "/projects/zomato-pipeline.png",
+        github: "https://github.com/saideepeedara27-alt/zomato-data-engineering-ai",
+        demo: "https://zomato-data-engineering-ai-jikhn5zyyhtgyrs4wrenhj.streamlit.app/",
     },
     {
         title: "AQI Trends – Air Quality Trend Analysis",
@@ -44,8 +53,8 @@ export const projects: ProjectItem[] = [
             "Full-stack air quality platform integrating WAQI and OpenAQ APIs to monitor 21+ Indian and global cities in real time. Implemented forecasting using ARIMA, Holt-Winters Exponential Smoothing, and OLS Regression with interactive Chart.js dashboards. Automated containerized deployment using Docker, Jenkins CI/CD, and AWS EC2.",
         tags: ["Python", "React.js", "Chart.js", "ARIMA Time Series", "Docker", "Jenkins", "AWS EC2"],
         image: "/projects/aqi-trends.png",
-        github: "https://github.com/saideepeedara27-alt",
-        demo: "https://github.com/saideepeedara27-alt",
+        github: "https://github.com/sathwiksyr/Air-quality-trend-analysis_final",
+        demo: "https://aqitrends.online/",
     },
 ];
 

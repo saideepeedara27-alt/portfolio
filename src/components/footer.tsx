@@ -34,7 +34,6 @@ export function Footer() {
                                 { name: "Projects", href: "/projects" },
                                 { name: "Education", href: "/experience" },
                                 { name: "Skills", href: "/skills" },
-                                { name: "Services", href: "/services" },
                                 { name: "Contact", href: "/contact" },
                             ].map((item) => (
                                 <li key={item.name}>

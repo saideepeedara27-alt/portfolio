@@ -29,14 +29,17 @@ export async function POST(request: Request) {
             );
         }
 
+        const smtpPort = Number(process.env.SMTP_PORT) || 465;
+        const smtpPass = process.env.SMTP_PASS?.replace(/\s+/g, '');
+
         // Create transporter
         const transporter = nodemailer.createTransport({
-            host: process.env.SMTP_HOST,
-            port: Number(process.env.SMTP_PORT) || 587,
-            secure: Number(process.env.SMTP_PORT) === 465, // true for 465, false for other ports
+            host: process.env.SMTP_HOST || 'smtp.gmail.com',
+            port: smtpPort,
+            secure: smtpPort === 465, // true for 465, false for other ports
             auth: {
                 user: process.env.SMTP_USER,
-                pass: process.env.SMTP_PASS,
+                pass: smtpPass,
             },
         });
 
